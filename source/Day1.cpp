@@ -7,7 +7,7 @@ using namespace std;
 main(){
 	string line;
 	int count=0;
-	ifstream input_file("input.txt");
+	ifstream input_file("../input/input_1.txt");
 	if(input_file.is_open()){
 		while(getline(input_file,line)){
 			int i=0;
