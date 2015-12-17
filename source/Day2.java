@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Day2 {
 
 	public static void main(String[] args) throws Exception{
-		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("/home/local/ZOHOCORP/srijitha-2260/Jitha/AdventOfCode/day2/input.txt")));
+		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("../input/input_2.txt")));
 		String input;
 		int total = 0;
 		while((input = br.readLine()) != null){
